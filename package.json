@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "apt-get update && apt-get install -y chromium-browser"
+    "postinstall": "echo 'Skipping Chromium install'"
   },
   "dependencies": {
     "whatsapp-web.js": "^1.23.0",
